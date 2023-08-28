@@ -12,13 +12,13 @@ struct data1{
 };
 
   bool comp(data1 x, data1 y){
-      return(x.bt>y.bt);
+      return(x.bt<y.bt);
   }
 int main() {
      data1 row[20];
      int n;
      float wavg,tatvg;
-     cout<<"ënter no. of process"<<endl;
+     cout<<"Ã«nter no. of process"<<endl;
      
      cin>>n;
           cout<<"at";
